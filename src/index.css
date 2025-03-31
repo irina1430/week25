@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+button {
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 36px;
+  font-weight: 600;
+  justify-content: center;
+  width: 250px;
+  height: 100px;
+}
+
+button:hover {
+  background-color: #fb8332;
+  transform: translateY(-1px);
+}
